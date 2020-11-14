@@ -1,2 +1,2 @@
 # foreskin.live
-Website for foreskin.live, a domain i own
+Website for foreskin.live :)

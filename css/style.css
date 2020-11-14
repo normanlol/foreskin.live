@@ -1,0 +1,49 @@
+body {
+    font-family:Helvetica;
+    background:black;
+    color:white;
+}
+
+.header * {
+    margin:0;
+}
+
+.buttonContainer {
+    margin-top:1%;
+}
+
+a, a:visited {
+    color:white;
+    transition:color 0.5s;
+}
+
+a:hover {
+    color:#aeaeae;
+}
+
+button {
+    background:#282828;
+    color:white;
+    border:none;
+    height:20px;
+    transition:background 0.5s;
+}
+
+button:hover {
+    cursor:pointer;
+    background:#6f6f6f;
+}
+
+p code {
+    background:#282828;
+}
+
+.group p {
+    max-width:50%;
+}
+
+@media (max-width:1000px) {
+    .group p {
+        max-width:100%;
+    }
+}
