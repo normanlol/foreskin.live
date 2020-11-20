@@ -47,8 +47,8 @@ p code {
         max-width:100%;
     }
     .coolImage {
-        width:10px !important;
-        height:10px !important;
+        width:20px !important;
+        height:20px !important;
         transition:width 0.5s, height 0.5s !important;
     }
     .coolImage:hover {
