@@ -46,4 +46,25 @@ p code {
     .group p {
         max-width:100%;
     }
+    .coolImage {
+        width:10px !important;
+        height:10px !important;
+        transition:width 0.5s, height 0.5s !important;
+    }
+    .coolImage:hover {
+        width:500px !important;
+        height:451px !important;
+    }
+}
+
+.coolImage {
+    margin-top:10px;
+    width:5px;
+    height:5px;
+    transition:width 0.5s, height 0.5s;
+}
+
+.coolImage:hover {
+    width:500px;
+    height:451px;
 }
