@@ -27,6 +27,7 @@ button {
     border:none;
     height:20px;
     transition:background 0.5s;
+    margin-bottom:5px;
 }
 
 button:hover {
@@ -50,6 +51,11 @@ p code {
         width:5% !important;
         height:3% !important;
         transition:width 0.5s, height 0.5s !important;
+        margin-top:30px !important;
+    }
+    .coolImage {
+        max-width:100%;
+        max-height:451px;
     }
 }
 
@@ -60,7 +66,7 @@ p code {
     transition:width 0.5s, height 0.5s;
 }
 
-.coolImage:hover {
+.coolImage:hover, .coolImage:active, .coolImage:focus {
     width:500px !important;
     height:451px !important;
 }
