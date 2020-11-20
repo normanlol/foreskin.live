@@ -47,24 +47,20 @@ p code {
         max-width:100%;
     }
     .coolImage {
-        width:20px !important;
-        height:20px !important;
+        width:5% !important;
+        height:3% !important;
         transition:width 0.5s, height 0.5s !important;
-    }
-    .coolImage:hover {
-        width:500px !important;
-        height:451px !important;
     }
 }
 
 .coolImage {
     margin-top:10px;
-    width:5px;
-    height:5px;
+    width:0.5%;
+    height:0.7%;
     transition:width 0.5s, height 0.5s;
 }
 
 .coolImage:hover {
-    width:500px;
-    height:451px;
+    width:500px !important;
+    height:451px !important;
 }
