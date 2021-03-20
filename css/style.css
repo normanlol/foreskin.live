@@ -1,72 +1,95 @@
 body {
-    font-family:Helvetica;
-    background:black;
-    color:white;
-}
-
-.header * {
+    background:#16161a;
+    color:#fffffe;
+    font-family:Helvetica, Arial, sans-serif;
     margin:0;
 }
 
-.buttonContainer {
-    margin-top:1%;
+* {
+    margin-top:0;
+    margin-bottom:0;
 }
 
-a, a:visited {
-    color:white;
-    transition:color 0.5s;
-}
-
-a:hover {
-    color:#aeaeae;
+img {
+    border-radius:4px;
+    background:#321d71;
 }
 
 button {
-    background:#282828;
-    color:white;
-    border:none;
-    height:20px;
-    transition:background 0.5s;
-    margin-bottom:5px;
-}
-
-button:hover {
+    background:#7f5af0;
+    color:#fffffe;
+    border:0;
+    border-radius:4px;
+    height:30px;
+    transition:background 0.5s, color 0.5s;
     cursor:pointer;
-    background:#6f6f6f;
 }
 
-p code {
-    background:#282828;
+button:focus, button:hover, button:focus-within {
+    background:#00ebc7;
+    color:#010101;
 }
 
-.group p {
-    max-width:50%;
+a, a:visited{
+    color:#fffffe;
 }
 
-@media (max-width:1000px) {
-    .group p {
-        max-width:100%;
+.header a, .header a:visited {
+    text-decoration:none !important;
+}
+
+.header {
+    width:calc(100% - 20px);
+    background:#3c3c3c;
+    padding: 10px;
+    height:30px;
+}
+
+.header .l {
+    width:200px;
+    float:left;
+    height:100%;
+}
+
+.header .r {
+    width:calc(100% - 210px);
+    text-align:right;
+    float:right;
+    height:100%;
+}
+
+@media (max-width:615px) {
+    .header .l {
+        width:0px !important;
+        display:none;
     }
-    .coolImage {
-        width:5% !important;
-        height:3% !important;
-        transition:width 0.5s, height 0.5s !important;
-        margin-top:30px !important;
-    }
-    .coolImage {
-        max-width:100%;
-        max-height:451px;
+
+    .header .r {
+        width:100% !important;
     }
 }
 
-.coolImage {
+.header button {
+    height:100%;
+}
+
+.main {
+    margin-left:10px;
+    margin-right:10px;
     margin-top:10px;
-    width:0.5%;
-    height:0.7%;
-    transition:width 0.5s, height 0.5s;
 }
 
-.coolImage:hover, .coolImage:active, .coolImage:focus {
-    width:500px !important;
-    height:451px !important;
+.main .escapeMargin {
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:-10px;
+}
+
+.section h2, .section p {
+    margin-bottom:7.5px;
+}
+
+.foreskin {
+    height:500px;
+    width:auto;
 }
